@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A2E1DE1956AF70000E4C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A2E1DD1956AF70000E4C03 /* Foundation.framework */; };
+		16A2E1E01956AF70000E4C03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A2E1DF1956AF70000E4C03 /* CoreGraphics.framework */; };
+		16A2E1E21956AF70000E4C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A2E1E11956AF70000E4C03 /* UIKit.framework */; };
+		16A2E1E81956AF70000E4C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16A2E1E61956AF70000E4C03 /* InfoPlist.strings */; };
+		16A2E1EA1956AF70000E4C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A2E1E91956AF70000E4C03 /* main.m */; };
+		16A2E1EE1956AF70000E4C03 /* DFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A2E1ED1956AF70000E4C03 /* DFAppDelegate.m */; };
+		16A2E1F01956AF70000E4C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A2E1EF1956AF70000E4C03 /* Images.xcassets */; };
+		16A2E1F71956AF70000E4C03 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A2E1F61956AF70000E4C03 /* XCTest.framework */; };
+		16A2E1F81956AF70000E4C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A2E1DD1956AF70000E4C03 /* Foundation.framework */; };
+		16A2E1F91956AF70000E4C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A2E1E11956AF70000E4C03 /* UIKit.framework */; };
+		16A2E2011956AF70000E4C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16A2E1FF1956AF70000E4C03 /* InfoPlist.strings */; };
+		16A2E2031956AF70000E4C03 /* JUBADriveingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A2E2021956AF70000E4C03 /* JUBADriveingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A2E1FA1956AF70000E4C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A2E1D21956AF70000E4C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A2E1D91956AF70000E4C03;
+			remoteInfo = JUBADriveing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A2E1DA1956AF70000E4C03 /* JUBADriveing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JUBADriveing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A2E1DD1956AF70000E4C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16A2E1DF1956AF70000E4C03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16A2E1E11956AF70000E4C03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16A2E1E51956AF70000E4C03 /* JUBADriveing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JUBADriveing-Info.plist"; sourceTree = "<group>"; };
+		16A2E1E71956AF70000E4C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16A2E1E91956AF70000E4C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16A2E1EB1956AF70000E4C03 /* JUBADriveing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JUBADriveing-Prefix.pch"; sourceTree = "<group>"; };
+		16A2E1EC1956AF70000E4C03 /* DFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAppDelegate.h; sourceTree = "<group>"; };
+		16A2E1ED1956AF70000E4C03 /* DFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAppDelegate.m; sourceTree = "<group>"; };
+		16A2E1EF1956AF70000E4C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16A2E1F51956AF70000E4C03 /* JUBADriveingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JUBADriveingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A2E1F61956AF70000E4C03 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		16A2E1FE1956AF70000E4C03 /* JUBADriveingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JUBADriveingTests-Info.plist"; sourceTree = "<group>"; };
+		16A2E2001956AF70000E4C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16A2E2021956AF70000E4C03 /* JUBADriveingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUBADriveingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A2E1D71956AF70000E4C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2E1E01956AF70000E4C03 /* CoreGraphics.framework in Frameworks */,
+				16A2E1E21956AF70000E4C03 /* UIKit.framework in Frameworks */,
+				16A2E1DE1956AF70000E4C03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A2E1F21956AF70000E4C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2E1F71956AF70000E4C03 /* XCTest.framework in Frameworks */,
+				16A2E1F91956AF70000E4C03 /* UIKit.framework in Frameworks */,
+				16A2E1F81956AF70000E4C03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A2E1D11956AF70000E4C03 = {
+			isa = PBXGroup;
+			children = (
+				16A2E1E31956AF70000E4C03 /* JUBADriveing */,
+				16A2E1FC1956AF70000E4C03 /* JUBADriveingTests */,
+				16A2E1DC1956AF70000E4C03 /* Frameworks */,
+				16A2E1DB1956AF70000E4C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A2E1DB1956AF70000E4C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A2E1DA1956AF70000E4C03 /* JUBADriveing.app */,
+				16A2E1F51956AF70000E4C03 /* JUBADriveingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A2E1DC1956AF70000E4C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16A2E1DD1956AF70000E4C03 /* Foundation.framework */,
+				16A2E1DF1956AF70000E4C03 /* CoreGraphics.framework */,
+				16A2E1E11956AF70000E4C03 /* UIKit.framework */,
+				16A2E1F61956AF70000E4C03 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16A2E1E31956AF70000E4C03 /* JUBADriveing */ = {
+			isa = PBXGroup;
+			children = (
+				16A2E1EC1956AF70000E4C03 /* DFAppDelegate.h */,
+				16A2E1ED1956AF70000E4C03 /* DFAppDelegate.m */,
+				16A2E1EF1956AF70000E4C03 /* Images.xcassets */,
+				16A2E1E41956AF70000E4C03 /* Supporting Files */,
+			);
+			path = JUBADriveing;
+			sourceTree = "<group>";
+		};
+		16A2E1E41956AF70000E4C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16A2E1E51956AF70000E4C03 /* JUBADriveing-Info.plist */,
+				16A2E1E61956AF70000E4C03 /* InfoPlist.strings */,
+				16A2E1E91956AF70000E4C03 /* main.m */,
+				16A2E1EB1956AF70000E4C03 /* JUBADriveing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16A2E1FC1956AF70000E4C03 /* JUBADriveingTests */ = {
+			isa = PBXGroup;
+			children = (
+				16A2E2021956AF70000E4C03 /* JUBADriveingTests.m */,
+				16A2E1FD1956AF70000E4C03 /* Supporting Files */,
+			);
+			path = JUBADriveingTests;
+			sourceTree = "<group>";
+		};
+		16A2E1FD1956AF70000E4C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16A2E1FE1956AF70000E4C03 /* JUBADriveingTests-Info.plist */,
+				16A2E1FF1956AF70000E4C03 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A2E1D91956AF70000E4C03 /* JUBADriveing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A2E2061956AF70000E4C03 /* Build configuration list for PBXNativeTarget "JUBADriveing" */;
+			buildPhases = (
+				16A2E1D61956AF70000E4C03 /* Sources */,
+				16A2E1D71956AF70000E4C03 /* Frameworks */,
+				16A2E1D81956AF70000E4C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JUBADriveing;
+			productName = JUBADriveing;
+			productReference = 16A2E1DA1956AF70000E4C03 /* JUBADriveing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A2E1F41956AF70000E4C03 /* JUBADriveingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A2E2091956AF70000E4C03 /* Build configuration list for PBXNativeTarget "JUBADriveingTests" */;
+			buildPhases = (
+				16A2E1F11956AF70000E4C03 /* Sources */,
+				16A2E1F21956AF70000E4C03 /* Frameworks */,
+				16A2E1F31956AF70000E4C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A2E1FB1956AF70000E4C03 /* PBXTargetDependency */,
+			);
+			name = JUBADriveingTests;
+			productName = JUBADriveingTests;
+			productReference = 16A2E1F51956AF70000E4C03 /* JUBADriveingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A2E1D21956AF70000E4C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nicholas;
+				TargetAttributes = {
+					16A2E1F41956AF70000E4C03 = {
+						TestTargetID = 16A2E1D91956AF70000E4C03;
+					};
+				};
+			};
+			buildConfigurationList = 16A2E1D51956AF70000E4C03 /* Build configuration list for PBXProject "JUBADriveing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16A2E1D11956AF70000E4C03;
+			productRefGroup = 16A2E1DB1956AF70000E4C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A2E1D91956AF70000E4C03 /* JUBADriveing */,
+				16A2E1F41956AF70000E4C03 /* JUBADriveingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A2E1D81956AF70000E4C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2E1E81956AF70000E4C03 /* InfoPlist.strings in Resources */,
+				16A2E1F01956AF70000E4C03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A2E1F31956AF70000E4C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2E2011956AF70000E4C03 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A2E1D61956AF70000E4C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2E1EE1956AF70000E4C03 /* DFAppDelegate.m in Sources */,
+				16A2E1EA1956AF70000E4C03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A2E1F11956AF70000E4C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2E2031956AF70000E4C03 /* JUBADriveingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A2E1FB1956AF70000E4C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A2E1D91956AF70000E4C03 /* JUBADriveing */;
+			targetProxy = 16A2E1FA1956AF70000E4C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16A2E1E61956AF70000E4C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A2E1E71956AF70000E4C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16A2E1FF1956AF70000E4C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A2E2001956AF70000E4C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16A2E2041956AF70000E4C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16A2E2051956AF70000E4C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A2E2071956AF70000E4C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUBADriveing/JUBADriveing-Prefix.pch";
+				INFOPLIST_FILE = "JUBADriveing/JUBADriveing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16A2E2081956AF70000E4C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUBADriveing/JUBADriveing-Prefix.pch";
+				INFOPLIST_FILE = "JUBADriveing/JUBADriveing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16A2E20A1956AF70000E4C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JUBADriveing.app/JUBADriveing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUBADriveing/JUBADriveing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JUBADriveingTests/JUBADriveingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		16A2E20B1956AF70000E4C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JUBADriveing.app/JUBADriveing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUBADriveing/JUBADriveing-Prefix.pch";
+				INFOPLIST_FILE = "JUBADriveingTests/JUBADriveingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A2E1D51956AF70000E4C03 /* Build configuration list for PBXProject "JUBADriveing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A2E2041956AF70000E4C03 /* Debug */,
+				16A2E2051956AF70000E4C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A2E2061956AF70000E4C03 /* Build configuration list for PBXNativeTarget "JUBADriveing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A2E2071956AF70000E4C03 /* Debug */,
+				16A2E2081956AF70000E4C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A2E2091956AF70000E4C03 /* Build configuration list for PBXNativeTarget "JUBADriveingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A2E20A1956AF70000E4C03 /* Debug */,
+				16A2E20B1956AF70000E4C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16A2E1D21956AF70000E4C03 /* Project object */;
+}

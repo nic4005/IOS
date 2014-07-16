@@ -13,4 +13,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "UIView+Position.h"
+    #import "Utility.h"
+    #import "SharedConst.h"
+    #import "CommonMacros.h"
 #endif
+
+#   define SAFE_RELEASE(val) {[val release]; val = nil;}

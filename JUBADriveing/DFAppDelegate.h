@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DFTabbarVC.h"
+#import "BMKMapManager.h"
 
 @interface DFAppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+        BMKMapManager *_mapManager;
+}
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) DFTabbarVC *viewController;
 
 @end

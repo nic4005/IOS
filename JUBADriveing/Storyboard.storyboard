@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="AfD-4E-Go1">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--TabbarVC-->
+        <scene sceneID="Zpv-Q1-gSD">
+            <objects>
+                <viewController storyboardIdentifier="DFTabbarVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AfD-4E-Go1" customClass="DFTabbarVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WjA-qN-Kyy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ccO-cm-rot" userLabel="container view">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="576"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="28d-k5-G8g">
+                                        <rect key="frame" x="82" y="245" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.52941176469999995" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e8t-IT-qUR">
+                                        <rect key="frame" x="96" y="312" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="selected.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="CFw-Fr-RQ1">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.52941176470588236" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView tag="1000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_nearyby_img.png" highlightedImage="tabbar_nearyby_selected.png" id="Die-7h-j1a">
+                                <rect key="frame" x="0.0" y="519" width="80" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView tag="1001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_order_img.png" highlightedImage="tabbar_order_selected.png" id="x0I-14-Lfi">
+                                <rect key="frame" x="80" y="519" width="80" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView tag="1002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_pref_img.png" highlightedImage="tabbar_pref_selected.png" id="Iws-tm-4IX">
+                                <rect key="frame" x="159" y="519" width="80" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView tag="1003" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_setting_img.png" highlightedImage="tabbar_setting_selected.png" id="wBf-hx-gph">
+                                <rect key="frame" x="240" y="519" width="80" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="containerView" destination="ccO-cm-rot" id="QTI-6e-UOS"/>
+                        <outlet property="tabNearby" destination="Die-7h-j1a" id="d0a-jj-4G6"/>
+                        <outlet property="tabOrder" destination="x0I-14-Lfi" id="DJ5-4I-yqw"/>
+                        <outlet property="tabPreferential" destination="Iws-tm-4IX" id="2uF-TO-sLn"/>
+                        <outlet property="tabSetting" destination="wBf-hx-gph" id="IhD-xe-lys"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fk-nI-Osu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="25"/>
+        </scene>
+        <!--SettingVC-->
+        <scene sceneID="oBh-sC-lgd">
+            <objects>
+                <viewController storyboardIdentifier="DFSettingVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AoE-by-ZU4" customClass="DFSettingVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YT3-BC-T1f">
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.21655848580000001" green="0.45686164620000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="260" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eH1-fS-HCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1512" y="25"/>
+        </scene>
+        <!--PreferentialVC-->
+        <scene sceneID="f5B-Em-gzW">
+            <objects>
+                <viewController storyboardIdentifier="DFPreferentialVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8h4-fP-TIy" customClass="DFPreferentialVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1vC-Si-4VY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="99g-23-B3X">
+                                <rect key="frame" x="146" y="319" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="selected.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60450153429999998" green="1" blue="0.27995427960000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nqg-gP-oFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1177" y="25"/>
+        </scene>
+        <!--OrderVC-->
+        <scene sceneID="lwm-ib-pqt">
+            <objects>
+                <viewController storyboardIdentifier="DFOrderVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GRR-pg-Gt4" customClass="DFOrderVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Ob-zs-dqJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.83198990449999999" green="0.1974903707" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rb0-ss-wSG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837" y="25"/>
+        </scene>
+        <!--AgreementVC-->
+        <scene sceneID="iGT-dg-5Af">
+            <objects>
+                <viewController storyboardIdentifier="DFAgreementVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Io-rz-Slg" customClass="DFAgreementVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bt1-WH-HaO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="mej-mb-Mck">
+                                <rect key="frame" x="0.0" y="35" width="320" height="418"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JCx-fk-zV6">
+                                <rect key="frame" x="0.0" y="523" width="160" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="同意"/>
+                                <connections>
+                                    <action selector="theButtonTapped:" destination="5Io-rz-Slg" eventType="touchUpInside" id="rwB-HT-Qp8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AHH-80-F9q">
+                                <rect key="frame" x="160" y="523" width="160" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="拒绝">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="theButtonTapped:" destination="5Io-rz-Slg" eventType="touchUpInside" id="KaI-dz-FCM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="agreeBtn" destination="JCx-fk-zV6" id="69I-We-zyY"/>
+                        <outlet property="refuseBtn" destination="AHH-80-F9q" id="B7A-ZE-dZC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sYt-9f-VIl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="675"/>
+        </scene>
+        <!--Nearby MapVC-->
+        <scene sceneID="os6-kh-hQl">
+            <objects>
+                <viewController storyboardIdentifier="DFNearbyVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CEy-uL-Wch" customClass="DFNearbyMapVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yir-Co-dch">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nearby-topbar-img.png" id="peK-Ij-1Ah">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ttK-5l-Y5a">
+                                <rect key="frame" x="66" y="9" width="90" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="nearby-top-map.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dx9-tl-DgY">
+                                <rect key="frame" x="156" y="10" width="90" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="nearby-top-list.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2b8-ld-wYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="505" y="25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nearby-top-list.png" width="47" height="17"/>
+        <image name="nearby-top-map.png" width="45" height="16"/>
+        <image name="nearby-topbar-img.png" width="90" height="20"/>
+        <image name="selected.png" width="88" height="88"/>
+        <image name="tabbar_nearyby_img.png" width="80" height="49"/>
+        <image name="tabbar_nearyby_selected.png" width="80" height="49"/>
+        <image name="tabbar_order_img.png" width="80" height="49"/>
+        <image name="tabbar_order_selected.png" width="80" height="49"/>
+        <image name="tabbar_pref_img.png" width="80" height="49"/>
+        <image name="tabbar_pref_selected.png" width="80" height="49"/>
+        <image name="tabbar_setting_img.png" width="80" height="49"/>
+        <image name="tabbar_setting_selected.png" width="80" height="49"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

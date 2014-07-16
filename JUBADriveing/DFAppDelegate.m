@@ -12,8 +12,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    _mapManager = [[BMKMapManager alloc]init];
+    BOOL ret = [_mapManager start:@"eBZw5PeUiRpbHdNcuF5zcfXx"  generalDelegate:nil];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    _viewController = [Utility controllerFromMainStoryboardWithIdentifier:@"DFTabbarVC"];
+    
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:_viewController];
+    nvc.navigationBarHidden = YES;
+    _window.rootViewController = nvc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
